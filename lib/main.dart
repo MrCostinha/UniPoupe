@@ -5,11 +5,11 @@ import 'color_schemes.g.dart';
 import 'custom_color.g.dart';
 
 void main() {
-  runApp(const App());
+  runApp(const MainApp());
 }
 
-class App extends StatelessWidget {
-  const App({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
