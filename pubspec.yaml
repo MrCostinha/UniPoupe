@@ -21,3 +21,4 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/logo_cheia.png
+    - assets/images/linha.png

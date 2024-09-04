@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:unipoupe/src/sing_up/sing_up_page.dart';
 import 'package:unipoupe/src/splash/splash_page.dart';
+import 'package:unipoupe/src/sing_in/sing_in_page.dart';
 
 void main() {
   runApp(const App());
@@ -22,7 +24,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
             seedColor: Color(0xFF690BA3), brightness: Brightness.dark),
       ),
-      home: const SplashPage(),
+      home: SingInPage(),
     );
   }
 }
